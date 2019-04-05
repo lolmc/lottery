@@ -1,5 +1,6 @@
 # Import `os`
 import os
+
 # Import module to deal with IP subnet calculations
 
 # Retrieve current working directory (`cwd`)
@@ -9,7 +10,6 @@ print(cwd)
 os.chdir("/home/lol/PycharmProjects/lottery/")
 # List all files and directories in current directory
 print(os.listdir('.'))
-
 
 # Adventure with sqlite3
 
